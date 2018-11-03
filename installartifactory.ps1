@@ -7,7 +7,7 @@ $path = "C:\Program Files\Java"
 if (! (Test-path $path ))
 {
  
- $Exe = 'D:\jre-8u191-windows-x64.exe'
+ $Exe = "D:\jre-8u191-windows-x64.exe"
 $ExeArgs = @(
    "INSTALL_SILENT=1"
    "STATIC=0"
