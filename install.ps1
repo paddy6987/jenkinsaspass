@@ -3,5 +3,5 @@ Start-BitsTransfer –Source "https://jenkinsaspass.blob.core.windows.net/softwa
 cd D:\
 Start-Process jenkins.msi /qn 
 Start-Sleep 60
-echo "Admin123" | out-file  C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword
+
 
