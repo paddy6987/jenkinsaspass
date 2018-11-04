@@ -1,6 +1,6 @@
 Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
-Start-BitsTransfer –Source "https://jenkinsaspass.blob.core.windows.net/software/sonarqube-6.7.5.zip" -Destination D:\
-Start-BitsTransfer –Source "https://jenkinsaspass.blob.core.windows.net/software/jre-8u191-windows-x64.exe" -Destination D:\
+Start-BitsTransfer –Source "https://jenkinsaspass.blob.core.windows.net/software/sonarqube-6.7.5.zip" -Destination "D:\"
+Start-BitsTransfer –Source "https://jenkinsaspass.blob.core.windows.net/software/jre-8u191-windows-x64.exe" -Destination "D:\"
 
 $path = "C:\Program Files\Java"
 
@@ -45,4 +45,3 @@ unzip "D:\sonarqube-6.7.5.zip" "D:\"
 D:\sonarqube-6.7.5\bin\windows-x86-64\StartSonar.bat
 
  }
- 
