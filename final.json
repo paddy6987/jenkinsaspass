@@ -2,15 +2,15 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-      "storageAccountName": {
+        "jumpstorageAccountName": {
         "type": "string",
-        "defaultValue": "Vmlbdced688aw",
         "metadata": {
           "description": "Name of storage account"
         }
       },
-      "jumpstorageAccountName": {
+        "storageAccountName": {
         "type": "string",
+        "defaultValue": "Vmlbdced688aw",
         "metadata": {
           "description": "Name of storage account"
         }
