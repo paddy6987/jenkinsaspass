@@ -42,6 +42,6 @@ function unzip {
 }
 unzip "D:\sonarqube-6.7.5.zip" "D:\"
 
-D:\sonarqube-6.7.5\bin\rrun.vbs
+D:\sonarqube-6.7.5\bin\run.vbs
 
  }
