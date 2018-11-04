@@ -31,7 +31,7 @@ function unzip {
 }
 unzip "D:\sonarqube-6.7.5.zip" "D:\"
 
-D:\sonarqube-6.7.5\bin\run.vbs
+D:\sonarqube-6.7.5\bin\windows-x86-64\StartSonar.bat
 
  }
  else { 
@@ -42,6 +42,6 @@ function unzip {
 }
 unzip "D:\sonarqube-6.7.5.zip" "D:\"
 
-D:\sonarqube-6.7.5\bin\run.vbs
+D:\sonarqube-6.7.5\bin\windows-x86-64\StartSonar.bat
 
  }
