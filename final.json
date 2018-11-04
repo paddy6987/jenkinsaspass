@@ -10,7 +10,6 @@
       },
         "storageAccountName": {
         "type": "string",
-        "defaultValue": "Vmlbdced688aw",
         "metadata": {
           "description": "Name of storage account"
         }
